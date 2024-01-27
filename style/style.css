@@ -9,6 +9,9 @@ body {
 
 .container {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-bar {
@@ -20,27 +23,9 @@ body {
     justify-content: space-between;
 }
 
-.logo {
-    height: 30px;
-    width: 46px;
-    background-size: 47px;
-    background-image: url('image/');
-    margin: 20px;
-}
 
 .user-container {
     margin: 20px;
-}
-
-.properties {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    text-align: center;
-    align-items: center;
-    /* background: #333; */
-    height: 400px;
-    width: 100%;
 }
 
 .properties {
@@ -55,6 +40,61 @@ body {
     padding: 10px;
     box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
 }
+
+.footer {
+    /* width: 100%; */
+    background-color: lightcoral;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.review-card {
+    padding: 10px;
+}
+
+.reviews {
+    display: flex;
+    padding: 10px;
+}
+
+.break {
+    height: 1px;
+    width: 90%;
+    background-color: coral;
+}
+
+
+.image {
+    width: 100%;
+}
+
+
+.rec-title {
+    text-align: center;
+}
+
+
+.properties {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-content: center;
+    text-align: center;
+    align-items: center; */
+    /* background: #333; */
+    /* height: 400px;
+    width: 100%; */
+}
+
+.properties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* height: 400px; */
+    /* width: 100%; */
+}
+
+
 
 .surf_img {
     width: 100%;
