@@ -3,26 +3,29 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
-    color: darkgrey;
+    color: rgb(169, 169, 169);
     flex-direction: column;
 }
 
 .container {
-    margin: 20px;
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.container img {
+    width: 100%;
+}
+
 .nav-bar {
     width: 100%;
     position: sticky;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
     display: flex;
     justify-content: space-between;
 }
-
 
 .user-container {
     margin: 20px;
@@ -31,6 +34,7 @@ body {
 .properties {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -41,12 +45,23 @@ body {
     box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
 }
 
+.btn {
+    background: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.btn:hover {
+    background: rgb(255, 255, 0);
+}
+
 .footer {
-    /* width: 100%; */
-    background-color: lightcoral;
+    background-color: rgb(240, 128, 128);
     text-align: center;
-    padding: 30px;
-    color: white;
+    padding: 30px 0;
+    color: rgb(255, 255, 255);
 }
 
 .review-card {
@@ -61,51 +76,26 @@ body {
 .break {
     height: 1px;
     width: 90%;
-    background-color: coral;
+    background-color: rgb(255, 127, 80);
 }
-
-
-.image {
-    width: 100%;
-}
-
 
 .rec-title {
     text-align: center;
-}
-
-
-.properties {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-content: center;
-    text-align: center;
-    align-items: center; */
-    /* background: #333; */
-    /* height: 400px;
-    width: 100%; */
 }
 
 .properties {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* height: 400px; */
-    /* width: 100%; */
 }
-
-
 
 .surf_img {
     width: 100%;
 }
 
 .footer {
-    /* width: 100%; */
-    background-color: lightcoral;
-    /* position:absolute; */
-    /* bottom:0; */
+    background-color: rgb(240, 128, 128);
     text-align: center;
     padding: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
